@@ -1,1 +1,3 @@
-pip install PyMuPDF pillow
+streamlit
+PyMuPDF
+Pillow
