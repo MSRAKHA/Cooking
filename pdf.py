@@ -6,7 +6,7 @@ import io
 st.set_page_config(page_title="PDF Viewer", page_icon="📄", layout="wide")
 st.title("📄 PDF Viewer")
 
-pdf_path = "/Users/rakhamugathishaik/MSR-Coder/Cook/SatvikCookPDF/Satvic_food_book_1.pdf"
+pdf_path = "Satvic_food_book_1.pdf"
 pdf_document = fitz.open(pdf_path)
 
 for page_num in range(len(pdf_document)):
